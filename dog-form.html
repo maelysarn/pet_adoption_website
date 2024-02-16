@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Paw Rescue</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="dog-adoption-styling.css">
+    </head>
+    <body>
+        <header>
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html">
+                            <img id="logo" src="images/shiro-bodybuilder.jpg" alt="Shiro super hero!!">
+                             <!--Pinterest, https://pin.it/3Fx9in3QU -->
+                        </a>
+                    </td>
+                    <th>CAREFOR PAWS</th>
+                </tr>
+            </table>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browsepet.html">Browse Available Pet</a></li>
+                <li><a class="active" href="findanimal.html">Find a dog/cat</a></li>
+                <li><a href="dogcare.html">Dog Care</a></li>
+                <li><a href="catcare.html">Cat Care</a></li>
+                <li><a href="put-for-adoption.html">Have a pet to give away?</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="normal">
+            <h2>Please fill out the following questions before proceeding</h2>
+            <fieldset class="info">
+                <form action="find-dog">
+                    <label>Breed of dog</label>
+                    <select name="breed">
+                        <option value="breed1">Breed 1</option>
+                        <option value="breed2">Breed 2</option>
+                        <option value="breed3">Breed 3</option>
+                        <option value="breed4">Breed 4</option>
+                        <option value="all">Doesn't matter</option>
+                    </select>
+                    <br><br>
+    
+                    <label>Preferred age range</label>
+                    <select name="age">
+                        <option value="0to1">Less than a year</option>
+                        <option value="1to5">Between 1 and 5 years old</option>
+                        <option value="any">Doesn't matter</option>
+                    </select>
+                    <br><br>
+    
+                    <label>Preferred gender</label>
+                    <input type="radio" id="fem" name="gender" value="female">
+                    <label>Female</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label>Male</label>
+                    <input type="radio" id="dontmatter" name="gender" value="dontmatter">
+                    <label>Doesn't matter</label>
+                    <br><br>
+    
+                    <label>Check the boxes of which you wish the dog gets along with:</label>
+                    <br>
+                    <input type="checkbox" name="get-along" value="dogs">
+                    <label>Other dogs</label>
+                    <input type="checkbox" name="get-along" value="cats">
+                    <label>Cats</label>
+                    <input type="checkbox" name="get-along" value="children">
+                    <label>Small children</label>
+                    <br><br>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+    
+                </form>
+            </fieldset>
+        </div>
+        <footer>
+            <a href="statement.html">Privacy/Disclamer Statement</a>
+        </footer>
+    </body>
+</html>
